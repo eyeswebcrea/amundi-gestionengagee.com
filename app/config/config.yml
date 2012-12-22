@@ -65,7 +65,7 @@ jms_security_extra:
 eyeswebcrea_referencement:
     rubriqueId: 1
     article_manager: spip_acces_content.article_manager
-    routes_sitemap: ["SiteHomeBundle_homepage", "SiteHomeBundle_contact"]
+    routes_sitemap: ["SiteHomeBundle_homepage", "SiteHomeBundle_contact", "SiteHomeBundle_lacarte", "SiteHomeBundle_labricopub"]
     
 eyeswebcrea_alias_content_viewer:
     article_manager: spip_acces_content.article_manager
@@ -82,22 +82,22 @@ ihqs_contact:
     model: ~                                # (optional) class managing the model
     connectors:                             # the list of "listeners" (or connectors here)
         email:                              # connecting the email listener
-            recipients: jpasqualini@eyeswebcrea.fr    # giving him the recipient(s) email(s)
+            recipients: contact@amundi-gestionengagee.com    # giving him the recipient(s) email(s)
         database:                           # connecting the database listener
             db_driver: orm                  # giving him the database driver
         file: ~                             # connecting the file logger listener
     
 avalanche_sitemap:
-    base_url: "http://www.votresite.fr/"
-    database: votre_site
+    base_url: "http://www.amundi-gestionengagee.com/"
+    database: amundigestionengagee
 
 google:
     analytics:
         trackers:
             default:
-                name:      MyJavaScriptCompatibleVariableNameWithNoSpaces
+                name:      AmundiGestionEngageeTracker
                 accountId: UA-xxxx-x
-                domain:    .mydomain.com
+                domain:    .amundi-gestionengagee.com
                 trackPageLoadTime: true
 
 
