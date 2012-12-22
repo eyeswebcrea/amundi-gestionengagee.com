@@ -96,7 +96,7 @@ google:
         trackers:
             default:
                 name:      AmundiGestionEngageeTracker
-                accountId: UA-xxxx-x
+                accountId: UA-37218492-1
                 domain:    .amundi-gestionengagee.com
                 trackPageLoadTime: true
 
